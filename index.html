@@ -6,21 +6,43 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <title>Document</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
     .rectangle {
-        width: auto;
-        height: auto;
-        background-color: aqua;
-        border: 3px solid black;
-        padding: 50px;
-        margin-bottom: 50px;
+      width: 100px;
+      height: 50px;
+      border-radius: 16px;
+      background-color: forestgreen;
+      margin: 50px;
+    }
+    .elips {
+      width: 100px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: darkmagenta;
+      margin: 50px;
+    }
+    .circle {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: aquamarine;
+      margin: 50px;
+    }
+    .triangle {
+      width: 100px;
+      height: 100px;
+      border: 50px solid transparent;
+      border-top-color: brown;
+      margin: 50px;
     }
   </style>
 </head>
 <body>
-  <div class="rectangle">I am learning box model in CSS!</div>
-  <div class="rectangle">I am learning box model in CSS!</div>
-  <div class="rectangle">I am learning box model in CSS!</div>
-  <div class="rectangle">I am learning box model in CSS!</div>
-  <div class="rectangle">I am learning box model in CSS!</div>
+  <div class="rectangle"></div>
+  <div class="elips"></div>
+  <div class="circle"></div>
+  <div class="triangle"></div>
 </body>
 </html>
